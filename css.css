@@ -1,0 +1,36 @@
+td div {
+	background-color: black;
+	color:#CCC;
+	display: align-block;
+	border: 10px;
+	padding: 10px;
+	text-align: center
+	
+}
+
+.edit {
+	background-color: black;
+	color:#CCC;
+}
+
+a {
+	color: #CCC
+}
+
+
+td div a {
+	color: #000;
+	background-color: #999;
+	text-align: center;
+	border: medium solid #F00;
+	padding: 0px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	cursor: pointer;
+}
+td div a:hover {
+	background-color: #333;
+	color: #000;
+}
