@@ -1,36 +1,48 @@
-td div {
-	background-color: black;
-	color:#CCC;
-	display: align-block;
-	border: 10px;
-	padding: 10px;
-	text-align: center
-	
-}
+body { background:#000;
+margin: 0px; padding: 0px }
 
-.edit {
-	background-color: black;
-	color:#CCC;
-}
+.wrapper { background:#CCC; width:1000px; border-top: 10px solid #CCC; border-right: 2px solid #CCC; border-bottom: 5px solid #CCC; border-left: 2px solid #CCC
+; margin: 10px auto; }
 
-a {
-	color: #CCC
-}
-
-
-td div a {
-	color: #000;
-	background-color: #999;
-	text-align: center;
-	border: medium solid #F00;
+.navigation {
+	margin: 20px 0px 20px 0px;
 	padding: 0px;
-	margin-top: 20px;
-	margin-right: 0px;
-	margin-bottom: 20px;
-	margin-left: 0px;
-	cursor: pointer;
+	text-align: center;
 }
-td div a:hover {
-	background-color: #333;
+.navigation li { display: inline;}
+
+.navigation li a { background: #F2F2F2;
+padding: 10px 30px; margin-right: 40px; border: 2px solid #222940; color: #222940; text-decoration: none; border-radius: 500px }
+
+.navigation li a:hover { color:#CCC; background-color:#333}
+
+.content {
+	text-align: center;
+	color: #CCC;
+	background-color: #000;
+	margin: 10px;
+	border-radius: 15px}
+	
+.main {
 	color: #000;
+	background-color: #EEEEEE;
+	border-radius: 15px;
+	text-align: left;
+	margin: 20px;
+	margin-bottom: 10px}
+	
+.content h1 { margin: 10px;}
+.content table tr td p {
+	margin-left: 30px;
+	font-size: 15px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+}
+h2 {
+	text-align: left;
+	margin-left: 30px;
+}
+.wrapper .content table tr td img {
+	margin-left: 20px;
+	margin-bottom: 10px;
 }
