@@ -9,10 +9,24 @@ margin: 0px; padding: 0px }
 	padding: 0px;
 	text-align: center;
 }
-.navigation li { display: inline;}
+.navigation li {
+	display: inline;
+	text-align: center;
+	margin: 10px;
+}
 
-.navigation li a { background: #F2F2F2;
-padding: 10px 30px; margin-right: 40px; border: 2px solid #222940; color: #222940; text-decoration: none; border-radius: 500px }
+.navigation li a {
+	background: #F2F2F2;
+	padding: 10px 30px;
+	margin-right: 40px;
+	border: 2px solid #222940;
+	color: #222940;
+	text-decoration: none;
+	border-radius: 500px;
+	font-family: "Ringbearer Medium";
+	text-align: center;
+	font-size: 14px;
+}
 
 .navigation li a:hover { color:#CCC; background-color:#333}
 
@@ -20,7 +34,7 @@ padding: 10px 30px; margin-right: 40px; border: 2px solid #222940; color: #22294
 	text-align: center;
 	color: #CCC;
 	background-color: #000;
-	margin: 10px;
+	margin: 20px;
 	border-radius: 15px}
 	
 .main {
@@ -32,17 +46,33 @@ padding: 10px 30px; margin-right: 40px; border: 2px solid #222940; color: #22294
 	margin-bottom: 10px}
 	
 .content h1 { margin: 10px;}
-.content table tr td p {
-	margin-left: 30px;
-	font-size: 15px;
-	margin-bottom: 10px;
-	margin-right: 20px;
+.wrapper .content .location tr td img {
+	margin: 20px;
+	border-radius: 15px;
 }
-h2 {
-	text-align: left;
-	margin-left: 30px;
+.wrapper .content .location tr td p {
+	margin: 20px;
+	font-size: 14px;
 }
-.wrapper .content table tr td img {
+.wrapper .content h2 {
+	margin-top: 20px;
 	margin-left: 20px;
-	margin-bottom: 10px;
+	text-align: left;
+	margin-bottom: 5px;
+}
+.wrapper .content .character {
+	font-family: "Ringbearer Medium";
+	font-weight: bold;
+	font-size: 20px;
+	display: inline;
+	vertical-align: middle;
+	color: #000;
+	background-image: url(images/arriere-plan.jpg);
+	text-align: center;
+}
+.wrapper .content .best-scenes   {
+	text-align: center;
+	vertical-align: middle;
+	font-family: "Ringbearer Medium";
+	background-image: url(images/arriere-plan2.jpg);
 }
