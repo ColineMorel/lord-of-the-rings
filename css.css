@@ -1,8 +1,16 @@
-body { background:#000;
-margin: 0px; padding: 0px }
+@import url(http://fonts.googleapis.com/css?family=Uncial+Antiqua);
 
-.wrapper { background:#CCC; width:1000px; border-top: 10px solid #CCC; border-right: 2px solid #CCC; border-bottom: 5px solid #CCC; border-left: 2px solid #CCC
-; margin: 10px auto; }
+body { background:#000;
+margin: 0px; 
+padding: 0px;
+font-family: "Uncial Antiqua", cursive;}
+
+.wrapper { background:#CCC; 
+width:1000px; 
+border-top: 10px solid #CCC; 
+border-right: 2px solid #CCC; border-bottom: 5px solid #CCC; 
+border-left: 2px solid #CCC;
+margin: 10px auto; }
 
 .navigation {
 	margin: 20px 0px 20px 0px;
@@ -23,9 +31,9 @@ margin: 0px; padding: 0px }
 	color: #222940;
 	text-decoration: none;
 	border-radius: 500px;
-	font-family: "Ringbearer Medium";
+	font-family: "Uncial Antiqua", cursive;
 	text-align: center;
-	font-size: 14px;
+	font-size: 11px;
 }
 
 .navigation li a:hover { color:#CCC; background-color:#333}
@@ -35,7 +43,12 @@ margin: 0px; padding: 0px }
 	color: #CCC;
 	background-color: #000;
 	margin: 20px;
-	border-radius: 15px}
+	border-radius: 15px;
+	padding-top: 0px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
 	
 .main {
 	color: #000;
@@ -61,18 +74,22 @@ margin: 0px; padding: 0px }
 	margin-bottom: 5px;
 }
 .wrapper .content .character {
-	font-family: "Ringbearer Medium";
+	font-family: "Uncial Antiqua", cursive;
 	font-weight: bold;
 	font-size: 20px;
-	display: inline;
-	vertical-align: middle;
-	color: #000;
-	background-image: url(images/arriere-plan.jpg);
+	color: #C79C4C;
+	background-image: url(images/fellowship.jpg);
 	text-align: center;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
 }
 .wrapper .content .best-scenes   {
 	text-align: center;
 	vertical-align: middle;
-	font-family: "Ringbearer Medium";
+	font-family: 'Uncial Antiqua', cursive;
 	background-image: url(images/arriere-plan2.jpg);
+	font-size: 30px;
+	color:#C79C4C;
 }
