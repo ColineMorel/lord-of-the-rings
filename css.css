@@ -1,8 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Uncial+Antiqua);
 
 body { background:#000;
-margin: 0px; 
-padding: 0px;
+
 font-family: "Uncial Antiqua", cursive;}
 
 .wrapper { background:#CCC; 
@@ -42,12 +41,8 @@ margin: 10px auto; }
 	text-align: center;
 	color: #CCC;
 	background-color: #000;
-	margin: 20px;
 	border-radius: 15px;
-	padding-top: 0px;
-	padding-right: 20px;
-	padding-bottom: 0px;
-	padding-left: 20px;
+	padding-left: 75px;	
 }
 	
 .main {
@@ -55,17 +50,20 @@ margin: 10px auto; }
 	background-color: #EEEEEE;
 	border-radius: 15px;
 	text-align: left;
-	margin: 20px;
 	margin-bottom: 10px}
 	
 .content h1 { margin: 10px;}
 .wrapper .content .location tr td img {
-	margin: 20px;
-	border-radius: 15px;
+	margin-left: 0px
+	border-radius: 40px;
+}
+.wrapper .content .menu {
+	padding-left: -20px;
+	padding-right: 70px;
 }
 .wrapper .content .location tr td p {
-	margin: 20px;
-	font-size: 14px;
+	margin-left: 20px
+	font-size: 10px;
 }
 .wrapper .content h2 {
 	margin-top: 20px;
@@ -75,21 +73,21 @@ margin: 10px auto; }
 }
 .wrapper .content .character {
 	font-family: "Uncial Antiqua", cursive;
+	margin-left: 75px
 	font-weight: bold;
 	font-size: 20px;
 	color: #C79C4C;
 	background-image: url(images/fellowship.jpg);
 	text-align: center;
-	border-top-color: #000;
-	border-right-color: #000;
-	border-bottom-color: #000;
-	border-left-color: #000;
+	vertical-align: middle;
+
 }
 .wrapper .content .best-scenes   {
-	text-align: center;
-	vertical-align: middle;
+
 	font-family: 'Uncial Antiqua', cursive;
 	background-image: url(images/arriere-plan2.jpg);
 	font-size: 30px;
 	color:#C79C4C;
+
 }
+
