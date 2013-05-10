@@ -32,17 +32,17 @@ margin: 10px auto; }
 	border-radius: 500px;
 	font-family: "Uncial Antiqua", cursive;
 	text-align: center;
-	font-size: 11px;
+	font-size: 9px;
 }
 
 .navigation li a:hover { color:#CCC; background-color:#333}
 
 .content {
-	text-align: center;
 	color: #CCC;
 	background-color: #000;
 	border-radius: 15px;
-	padding-left: 75px;	
+	vertical-align: middle;
+	text-align: center;
 }
 	
 .main {
@@ -54,16 +54,11 @@ margin: 10px auto; }
 	
 .content h1 { margin: 10px;}
 
-.wrapper .content .menu {
-	padding-left: -20px;
-	padding-right: 70px;
-}
 
 .wrapper .content h2 {
-	margin-top: 20px;
-	margin-left: 20px;
 	text-align: left;
-	margin-bottom: 5px;
+	padding-left: 60px;
+	padding-top: 20px;
 }
 .wrapper .content .character {
 	font-family: "Uncial Antiqua", cursive;
@@ -71,10 +66,15 @@ margin: 10px auto; }
 	font-weight: bold;
 	font-size: 20px;
 	color: #C79C4C;
-	background-image: url(images/fellowship.jpg);
-	text-align: center;
-	vertical-align: middle;
 	border: 2px solid #000;
+	text-align: center;
+	background-image: url(images/fellowship1.jpg);
+}
+.wrapper .content .character .row2 a {
+	color: #CCC;
+}
+.wrapper .content .character .row1 a {
+	color: #000;
 }
 .wrapper .content .character tr td a {
 	color: #FC6;
@@ -82,22 +82,30 @@ margin: 10px auto; }
 }
 .wrapper .content .best-scenes   {
 	font-family: 'Uncial Antiqua', cursive;
-	background-image: url(images/arriere-plan2.jpg);
+	background-image: url(images/the-one-ring.jpg);
 	font-size: 30px;
 	color: #C79C4C;
 	text-align: center;
 	vertical-align: middle;
-	border: 2px solid #000;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
 }
 
 .wrapper .content .location tr td img {
-	padding: 0px;
-	margin: 10px;
-	border-radius: 40px
+	border-radius: 40px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
 }
 .wrapper .content .location tr td p {
 	text-align: justify;
-	padding-right: 75px;
 	font-size: 14px
 }
 .wrapper .content .best-scenes tr td a {
@@ -107,4 +115,22 @@ margin: 10px auto; }
 .wrapper .content iframe {
 	text-align: center;
 	vertical-align: middle;
+}
+.wrapper .content .home {
+	font-size: 60px;
+}
+.wrapper .content .images {
+	padding-bottom: 30px;
+}
+.wrapper .content .location {
+	text-align: justify;
+	vertical-align: middle;
+	padding-top: 10px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+}
+.wrapper .content .best-quotes {
+	text-align: justify;
+	padding: 20px;
 }
